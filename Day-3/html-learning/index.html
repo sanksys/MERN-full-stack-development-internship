@@ -1,0 +1,324 @@
+<!-- 
+========================================================
+HTML BASICS TO ADVANCED – LEARNING FILE
+Author: For MERN Full Stack Internship
+Purpose: Learn HTML step-by-step using comments
+========================================================
+-->
+
+<!-- 
+HTML stands for HyperText Markup Language.
+It is used to structure content on the web.
+HTML is NOT a programming language – it is a markup language.
+-->
+
+<!DOCTYPE html>
+<!-- 
+<!DOCTYPE html> tells the browser that this is an HTML5 document.
+It must be the FIRST line in every HTML file.
+-->
+
+<html lang="en">
+<!-- 
+<html> is the root element of the HTML document.
+Everything must be inside <html>.
+lang="en" helps browsers, SEO, and screen readers.
+-->
+
+<head>
+  <!-- 
+  <head> contains meta information (not visible on the page)
+  -->
+
+  <meta charset="UTF-8">
+  <!-- 
+  charset="UTF-8" supports all characters and symbols.
+  -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+  Makes website responsive on mobile devices.
+  -->
+
+  <title>HTML Basics to Advanced</title>
+  <!-- 
+  <title> appears on the browser tab.
+  -->
+</head>
+
+<body>
+  <!-- 
+  <body> contains all the visible content of the webpage.
+  -->
+
+  <!-- ========================= -->
+  <!-- BASIC TEXT TAGS -->
+  <!-- ========================= -->
+
+  <h1 style="color: red;">HTML Learning Page</h1>
+  <!-- 
+  <h1> to <h6> are heading tags.
+  h1 is the biggest and most important heading.
+  -->
+
+  <h2>Basic Text Tags</h2>
+
+  <h3>Basic Text Tags</h2>
+
+    <p>
+      This is a paragraph tag.
+    </p>
+    <!-- 
+  <p> is used for paragraphs.
+  -->
+
+    <b>Bold Text</b>
+    <!-- 
+  <b> makes text bold (no importance).
+  -->
+
+    <strong>Strong Text</strong>
+    <!-- 
+  <strong> makes text bold WITH importance (SEO + accessibility).
+  -->
+
+    <i>Italic Text</i>
+    <!-- 
+  <i> makes text italic.
+  -->
+    <br>
+    <em>Emphasized Text</em>
+    <!-- 
+  <em> emphasizes text (preferred over <i>).
+  -->
+
+
+    <!-- 
+  <br> creates a line break.
+  It is a self-closing tag.
+  -->
+
+    <hr>
+    <!-- 
+  <hr> creates a horizontal line.
+  -->
+
+    <!-- ========================= -->
+    <!-- LINKS AND IMAGES -->
+    <!-- ========================= -->
+
+    <h2>Links & Images</h2>
+
+    <a href="https://www.google.com" target="_blank">
+      Visit Google
+    </a>
+    <!-- 
+  <a> is anchor tag (used for links).
+  href = destination URL
+  target="_blank" opens link in new tab.
+  -->
+
+    <br><br>
+
+    <img src="https://www.supratechinnovations.com/logo-solid-240.png" alt="Sample Image">
+    <!-- 
+  <img> is used to display images.
+  src = image path
+  alt = alternate text (important for accessibility).
+  -->
+
+    <!-- ========================= -->
+    <!-- LISTS -->
+    <!-- ========================= -->
+
+    <h2>Lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <!-- 
+  <ul> = unordered list (bullets)
+  <li> = list item
+  -->
+
+    <h3>Ordered List</h3>
+    <ol>
+      <li>Learn HTML</li>
+      <li>Learn CSS</li>
+      <li>Learn JavaScript</li>
+    </ol>
+    <!-- 
+  <ol> = ordered list (numbers)
+  -->
+
+    <!-- ========================= -->
+    <!-- TABLES -->
+    <!-- ========================= -->
+
+    <h2>Tables</h2>
+
+    <table border="1">
+      <!-- 
+    <table> is used to create tables.
+    border attribute is for demo (CSS preferred).
+    -->
+
+      <tr>
+        <!-- 
+      <tr> = table row
+      -->
+        <th>Name</th>
+        <th>Technology</th>
+      </tr>
+
+      <tr>
+        <td>Sanket</td>
+        <td>MERN</td>
+        <td>MERN</td>
+      </tr>
+      <tr>
+        <td>Supratech</td>
+        <td>MERN</td>
+      </tr>
+    </table>
+    <!-- 
+  <th> = table header
+  <td> = table data
+  -->
+
+    <!-- ========================= -->
+    <!-- FORMS -->
+    <!-- ========================= -->
+
+    <h2>Forms</h2>
+
+    <form>
+      <!-- 
+    <form> collects user input.
+    -->
+
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name">
+      <!-- 
+    input type="text" for text input
+    -->
+
+      <br><br>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email">
+      <!-- 
+    input type="email" validates email format
+    -->
+
+      <br><br>
+
+      <label>Password:</label>
+      <input type="password">
+      <!-- 
+    input type="password" hides characters
+    -->
+
+      <br><br>
+
+      <button type="submit">Submit</button>
+      <!-- 
+    button submits the form
+    -->
+    </form>
+
+    <!-- ========================= -->
+    <!-- SEMANTIC HTML (ADVANCED) -->
+    <!-- ========================= -->
+
+    <h2>Semantic HTML</h2>
+
+    <header>
+      Header Section
+    </header>
+    <!-- 
+  <header> represents top section of a page.
+  -->
+
+    <nav>
+      Navigation Menu
+    </nav>
+    <!-- 
+  <nav> contains navigation links.
+  -->
+
+    <main>
+      Main Content Area
+    </main>
+    <!-- 
+  <main> holds main page content.
+  -->
+
+    <section>
+      Section Content
+    </section>
+    <!-- 
+  <section> groups related content.
+  -->
+
+    <article>
+      Article Content
+    </article>
+    <!-- 
+  <article> represents independent content.
+  -->
+
+    <footer>
+      Footer Section
+    </footer>
+    <!-- 
+  <footer> appears at bottom of page.
+  -->
+
+    <!-- ========================= -->
+    <!-- ADVANCED CONCEPTS -->
+    <!-- ========================= -->
+
+    <!-- 
+  HTML Attributes:
+  - Provide extra information to elements
+  - Example: class, id, style, src, href
+  -->
+
+    <!-- 
+  id:
+  - Must be unique
+  - Used by CSS and JavaScript
+  -->
+
+    <!-- 
+  class:
+  - Can be reused
+  - Used for styling and grouping
+  -->
+
+    <!-- 
+  Data Attributes:
+  - Custom attributes starting with data-
+  - Used in JavaScript
+  Example: data-id="123"
+  -->
+
+    <!-- 
+  HTML alone cannot:
+  - Add logic
+  - Connect database
+  - Handle backend
+
+  It works with:
+  - CSS (styling)
+  - JavaScript (logic)
+  - Backend (Node.js, Express)
+  -->
+
+</body>
+
+</html>
