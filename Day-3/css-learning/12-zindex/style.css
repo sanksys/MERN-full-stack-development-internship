@@ -1,0 +1,23 @@
+.wrap {
+    position: relative;
+    height: 150px;
+}
+
+.one,
+.two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.one {
+    background: red;
+    z-index: 1;
+}
+
+.two {
+    background: blue;
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+}

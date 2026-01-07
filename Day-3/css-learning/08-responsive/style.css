@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    background: #ddd;
+    padding: 20px;
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px;
+        margin: auto;
+    }
+}

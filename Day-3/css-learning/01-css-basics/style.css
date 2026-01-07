@@ -1,0 +1,35 @@
+/*
+CSS INTRODUCTION
+CSS = Cascading Style Sheets
+Used to style HTML elements.
+*/
+
+/*
+Three ways to use CSS:
+1. Inline CSS
+2. Internal CSS
+3. External CSS (BEST PRACTICE)
+
+Priority order:
+
+Inline > Internal > External
+*/
+
+
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    color: #555;
+}
+
+.external {
+  color: blue;
+  font-size: 18px;
+}

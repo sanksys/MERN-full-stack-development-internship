@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Basics</title>
+
+  <!-- ============================= -->
+  <!-- EXTERNAL CSS -->
+  <!-- Best practice for real projects -->
+  <!-- ============================= -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ============================= -->
+  <!-- INTERNAL CSS -->
+  <!-- Used for page-specific styling -->
+  <!-- ============================= -->
+  <style>
+    .internal {
+      color: green;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--
+CSS = Cascading Style Sheets.
+
+There are 3 ways to apply CSS:
+1. Inline CSS   → inside the HTML tag
+2. Internal CSS → inside <style> tag
+3. External CSS → separate .css file (BEST PRACTICE)
+-->
+
+  <h1>CSS Basics</h1>
+
+  <!-- ============================= -->
+  <!-- INLINE CSS -->
+  <!-- Applied directly to element -->
+  <!-- Highest priority -->
+  <!-- ============================= -->
+  <p style="color: red; font-weight: bold;">
+    This paragraph uses INLINE CSS
+  </p>
+
+  <!-- ============================= -->
+  <!-- INTERNAL CSS -->
+  <!-- Defined in <style> inside <head> -->
+  <!-- ============================= -->
+  <p class="internal">
+    This paragraph uses INTERNAL CSS
+  </p>
+
+  <!-- ============================= -->
+  <!-- EXTERNAL CSS -->
+  <!-- Defined in style.css file -->
+  <!-- ============================= -->
+  <p class="external">
+    This paragraph uses EXTERNAL CSS
+  </p>
+
+</body>
+
+</html>

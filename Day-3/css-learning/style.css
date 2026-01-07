@@ -1,0 +1,110 @@
+/*
+=========================================
+CSS LEARNING FILE
+Used for live demo & teaching
+=========================================
+*/
+
+/*
+GLOBAL RESET
+Removes default browser spacing
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+BODY STYLING
+*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+}
+
+/*
+HEADINGS
+*/
+h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/*
+PARAGRAPH
+*/
+p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/*
+=========================================
+BOX MODEL
+=========================================
+*/
+.box {
+  width: 300px;           /* content width */
+  padding: 20px;          /* space inside box */
+  border: 2px solid #333; /* border */
+  margin-bottom: 30px;    /* space outside box */
+  background-color: #fff;
+}
+
+/*
+Box Model = content + padding + border + margin
+*/
+
+/*
+=========================================
+FLEXBOX
+=========================================
+*/
+.flex-container {
+  display: flex;                 /* enable flexbox */
+  gap: 10px;                     /* space between items */
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/*
+justify-content → horizontal alignment
+align-items → vertical alignment
+*/
+
+/*
+=========================================
+BUTTON & HOVER EFFECT
+=========================================
+*/
+.btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+
+  /* transition for smooth hover */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #219150;
+}

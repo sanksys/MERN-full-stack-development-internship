@@ -1,0 +1,10 @@
+:root {
+    --main: #3498db;
+}
+
+.primary {
+    background: var(--main);
+    color: #fff;
+    padding: 12px;
+    border: none;
+}

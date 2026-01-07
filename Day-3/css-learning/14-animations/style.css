@@ -1,0 +1,9 @@
+.anim {
+    padding: 12px;
+    transition: background .3s;
+}
+
+.anim:hover {
+    background: purple;
+    color: #fff;
+}
